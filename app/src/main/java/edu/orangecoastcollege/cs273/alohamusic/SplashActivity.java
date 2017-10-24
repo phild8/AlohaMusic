@@ -7,8 +7,15 @@ import android.support.v7.app.AppCompatActivity;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * Controller of the load screen
+ */
 public class SplashActivity extends AppCompatActivity {
 
+    /**
+     * Creates the load screen tha will be displayed while the program is loading.
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
